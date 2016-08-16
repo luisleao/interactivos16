@@ -14,11 +14,50 @@ Standard Colors
     text-transform: uppercase;
   }
 
+  .card-container .mdl-card__supporting-text {
+    height: auto;
+    color: black;
+    padding-bottom: 20px !important;
+  }
 
   .about {
 
   }
 
+  #apply {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+  }
+
+  .android-wear-band {
+      width: 100%;
+      text-align: center;
+      background-color: rgb(20,40,130);
+  }
+
+  .android-wear-band-text {
+      max-width: 800px;
+      margin-left: 25%;
+      padding: 24px;
+      text-align: left;
+      color: white;
+  }
+
+.android-alt-link {
+  text-decoration: none;
+  color: #64ffda !important;
+  font-size: 16px;
+}
+
+.android-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+}
 
 
   .works_list {
@@ -360,6 +399,7 @@ a img{
 }
 
 .current-section .current-band {
+  min-height: 450px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -387,6 +427,8 @@ a img{
   padding: 24px;
   text-align: left;
   color: white;
+  bottom: 0;
+  position: absolute;
 }
 
   .current-band-text p {
