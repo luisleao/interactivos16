@@ -299,6 +299,23 @@ a img{
   background-size: cover;
 }
 
+.nuvem-background {
+  background: url('images/nuvem.jpg') center 30% no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+.nuvem-section {
+}
+
+.nuvem-section {
+  padding: 0 0 40px;
+  max-width: 1044px;
+  margin-top: -80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
