@@ -59,6 +59,12 @@ Standard Colors
     top: 6px;
 }
 
+  span.mobile-title.mdl-layout-title a, .drawer span.mdl-layout-title a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
 
   .works_list {
       list-style-type: none;
